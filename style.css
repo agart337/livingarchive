@@ -1,6 +1,13 @@
 @font-face {
     font-family: 'diplomat';
-    src: url('./diplomat.ttf') format('opentype');
+    src: url('./diplomat.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('./helvetica-neue-roman.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,8 +24,8 @@ body {
 h1,
 h2 {
     font-family: 'diplomat', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 100;
 }
 
 h1 {
@@ -29,4 +36,13 @@ h1 {
 h2 {
     line-height: 1rem;
     margin: 0.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
 }
